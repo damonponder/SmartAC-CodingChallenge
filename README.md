@@ -7,16 +7,17 @@
 
 ##### You will be given **90 minutes** to complete the challenge
 
-##### For our challenge you will be building a responsive website about Texas!
+##### For our challenge you will be building a website about Texas!
 
 ##### All the copies and assets needed for the challenge is included in this repo.
 
 ### Requirements
-1. Use one of modern front-end framework to build out the website
+1. Use one of the modern front-end framework to build out the website
 * React, Vuejs, AngularJS, or Angular
 2. Be sure to create two views for 'About' and 'Fun facts'
 3. Do **NOT** hard code the fun facts but use the array that is given to you
 4. Make the website responsive for desktop and mobile
+5. If you have time left over you are more than welcome to add your own flair!
 
 ### Instructions
 1. Fork or download this repo
