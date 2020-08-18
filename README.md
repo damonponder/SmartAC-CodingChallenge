@@ -16,7 +16,7 @@
 * React, Vuejs, AngularJS, or Angular
 2. Be sure to create two views for 'About' and 'Fun facts'
 3. Do **NOT** hard code the fun facts but use the array that is given to you
-4. Make the website responsive for desktop and mobile
+4. Make the website responsive for all screen sizes web and mobile
 5. If you have time left over you are more than welcome to add your own flair!
 
 ### Instructions
