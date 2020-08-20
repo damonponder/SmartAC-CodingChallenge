@@ -4,7 +4,7 @@ import Toolbar from '../../Component/ToolBar/Toolbar';
 import SideDrawer from '../../Component/SideDrawer/SideDrawer';
 import facts from '../../copies/facts.json'
 
-
+const allFacts = facts.allFacts;
 export default class Fact extends Component {
    constructor(props) {
        super(props);
@@ -23,9 +23,8 @@ export default class Fact extends Component {
     drawerCloseClickHandler = () => {
         this.setState({sideDrawerOpen: false});
     }
-
-    }
-    render () {
+    
+render () {
         
         let sideDrawer;
 
@@ -44,7 +43,7 @@ export default class Fact extends Component {
             </div>
             <div>
                 <ul>
-                    <li>{this.factdatalist}</li>
+                {allFacts.map(s => (<li>{s}</li>))}
                 </ul>
             </div>
             </React.Fragment>
