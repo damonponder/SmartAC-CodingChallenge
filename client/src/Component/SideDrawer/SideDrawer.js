@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './SideDrawer.style.scss'
 
 const SideDrawerButtons = props => (

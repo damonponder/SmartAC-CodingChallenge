@@ -1,5 +1,5 @@
-import React from './node_modules/react';
-import './toolbar.style.scss';
+import React from 'react';
+import './Toolbar.style.scss';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 import TxLogo from '../../assets/tx-logo.png';
 
@@ -8,7 +8,7 @@ const Toolbar = props => (
     <header className='toolbar'>
         <nav className='toolbar_navigation'>
         <div className='toolbar-toggle-button'>
-            <DrawerToggleButton click={props.drawerClickHandler}/>
+            <DrawerToggleButton onclick={props.drawerClickHandler}/>
         </div>
         <div className='toolbar_logo'>
             <img className='image-toolbar' src={TxLogo}/>
@@ -23,5 +23,5 @@ const Toolbar = props => (
         </div>
     </nav>
 </header>
-)
+);
 export default Toolbar;
