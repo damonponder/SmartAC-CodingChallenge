@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './Facts.style.scss';
 import Toolbar from '../../Component/ToolBar/Toolbar';
 import SideDrawer from '../../Component/SideDrawer/SideDrawer';
-import facts from '../../copies/facts.json'
+import data from '../../copies/facts.json'
 
-const allFacts = facts.allFacts;
+const allFacts = data.facts;
 export default class Fact extends Component {
    constructor(props) {
        super(props);
