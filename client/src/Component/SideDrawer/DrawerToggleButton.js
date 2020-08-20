@@ -3,12 +3,12 @@ import './DrawerToggleButton.style.scss';
 
 
 
-const DrawerToggleButton = props => (
-    <button className='toggle-button' click={props.click}>
+const drawerToggleButton = props => (
+    <button className='toggle-button' onClick={props.click}>
         <div className='toggle-button_line'></div>
         <div className='toggle-button_line'></div>
         <div className='toggle-button_line'></div>
     </button>
 );
 
-export default DrawerToggleButton
+export default drawerToggleButton
