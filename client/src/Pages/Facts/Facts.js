@@ -10,7 +10,7 @@ export default class Fact extends Component {
        super(props);
     this.state = {
         sideDrawerOpen: false,
-        facts: []
+        facts: null
     }
     };
 
@@ -23,9 +23,6 @@ export default class Fact extends Component {
     drawerCloseClickHandler = () => {
         this.setState({sideDrawerOpen: false});
     }
-    factdatalist = () => { facts.map( 
-        this.setState({facts})
-        );
 
     }
     render () {
