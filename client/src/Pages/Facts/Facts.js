@@ -41,8 +41,12 @@ render () {
             {SideDrawer}
             
             </div>
-            <div>
-                <ul>
+
+            <div className='texas-facts-title-div'>
+            <h1 className='facts-title'>Fun Facts About Texas</h1>
+            </div>
+            <div className='texas-facts-list-div'>
+                <ul className='facts-list'>
                 {allFacts.map(s => (<li>{s}</li>))}
                 </ul>
             </div>
