@@ -6,8 +6,8 @@ const sideDrawerButtons = props => (
         <ul>
             <li ><a className='close-button' onClick={props.click}>Close X</a></li>
             <li><a href='/'>Home</a></li>
-            <li><a href='/'>About</a></li>
-            <li><a href='/'>Facts</a></li>
+            <li><a href='/About'>About</a></li>
+            <li><a href='/Facts'>Facts</a></li>
         </ul>
     </nav>
     );

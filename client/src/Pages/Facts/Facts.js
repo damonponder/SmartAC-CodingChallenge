@@ -38,7 +38,7 @@ render () {
             <div style={{height:'100%'}}>
             
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-            {SideDrawer}
+            {sideDrawer}
             
             </div>
 

@@ -41,7 +41,7 @@ export default class AboutTexas extends Component {
             <div style={{height:'100%'}}>
             
             <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-            {SideDrawer}
+            {sideDrawer}
             <div className='about-texas-seal'>
             <img className='about-image-texas-seal' src={TexasSeal}/>
             </div>
